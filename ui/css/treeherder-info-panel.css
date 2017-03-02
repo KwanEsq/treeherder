@@ -326,6 +326,23 @@ ul.failure-summary-list li .btn-xs {
   color: purple;
 }
 
+.failure-summary-bugs a > span {
+  color: rgba(0, 0, 238, .5);
+}
+
+.failure-summary-bugs a > span strong {
+  color: rgba(0, 0, 238, 1);
+  font-weight: normal;
+}
+
+.failure-summary-bugs a:visited > span {
+  color: rgba(128, 0, 128, .5);
+}
+
+.failure-summary-bugs a:visited > span strong {
+  color: rgba(128, 0, 128, 1);
+}
+          
 .failure-summary-bugs button {
   padding: 2px 3px 1px 3px;
 }
